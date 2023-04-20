@@ -9,6 +9,8 @@ TagManager:
   - Orange
   - Red
   - Blue
+  - Collider
+  - GameManager
   layers:
   - Default
   - TransparentFX

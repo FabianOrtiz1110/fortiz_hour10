@@ -13,6 +13,7 @@ public class GoalScript : MonoBehaviour
 			isSolved = true;
 			GetComponent<Light>().enabled = false;
 			Destroy (collidedWith);
+			Destroy (gameObject);
 		}
 	}
 }
